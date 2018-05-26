@@ -28,14 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txt_nombre = new System.Windows.Forms.TextBox();
             this.txt_contraseña = new System.Windows.Forms.TextBox();
             this.btn_registrar = new System.Windows.Forms.Button();
             this.cbox_tipoUsuario = new System.Windows.Forms.ComboBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.conjuntoDatosUsuario = new proyecto.ConjuntoDatosUsuario();
+            this.tipousuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tipo_usuarioTableAdapter = new proyecto.ConjuntoDatosUsuarioTableAdapters.tipo_usuarioTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conjuntoDatosUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_nombre
@@ -64,10 +70,9 @@
             // 
             // cbox_tipoUsuario
             // 
+            this.cbox_tipoUsuario.DataSource = this.tipousuarioBindingSource;
+            this.cbox_tipoUsuario.DisplayMember = "Nombre";
             this.cbox_tipoUsuario.FormattingEnabled = true;
-            this.cbox_tipoUsuario.Items.AddRange(new object[] {
-            "Administrador",
-            "Usuario"});
             this.cbox_tipoUsuario.Location = new System.Drawing.Point(414, 201);
             this.cbox_tipoUsuario.Name = "cbox_tipoUsuario";
             this.cbox_tipoUsuario.Size = new System.Drawing.Size(191, 21);
@@ -93,6 +98,20 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
+            // conjuntoDatosUsuario
+            // 
+            this.conjuntoDatosUsuario.DataSetName = "ConjuntoDatosUsuario";
+            this.conjuntoDatosUsuario.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tipousuarioBindingSource
+            // 
+            this.tipousuarioBindingSource.DataMember = "tipo_usuario";
+            this.tipousuarioBindingSource.DataSource = this.conjuntoDatosUsuario;
+            // 
+            // tipo_usuarioTableAdapter
+            // 
+            this.tipo_usuarioTableAdapter.ClearBeforeFill = true;
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -110,6 +129,8 @@
             this.Load += new System.EventHandler(this.Registro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conjuntoDatosUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,5 +144,8 @@
         private System.Windows.Forms.ComboBox cbox_tipoUsuario;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private ConjuntoDatosUsuario conjuntoDatosUsuario;
+        private System.Windows.Forms.BindingSource tipousuarioBindingSource;
+        private ConjuntoDatosUsuarioTableAdapters.tipo_usuarioTableAdapter tipo_usuarioTableAdapter;
     }
 }

@@ -32,5 +32,25 @@ namespace proyecto.Properties {
                 return ((string)(this["UsuarioConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=IDEA-PC;Initial Catalog=Bravosoftblll;Integrated Security=True")]
+        public string BravosoftblllConnectionString {
+            get {
+                return ((string)(this["BravosoftblllConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=IDEA-PC;Initial Catalog=Bravosoftbll;Integrated Security=True")]
+        public string BravosoftbllConnectionString {
+            get {
+                return ((string)(this["BravosoftbllConnectionString"]));
+            }
+        }
     }
 }

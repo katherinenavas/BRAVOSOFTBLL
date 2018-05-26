@@ -24,8 +24,8 @@ namespace proyecto
         private void btn_iniciarSesion_Click(object sender, EventArgs e)
         {
            Main parent = (Main)this.MdiParent;
-           ConjuntoDatosTableAdapters.UsuariosTableAdapter usuario = new ConjuntoDatosTableAdapters.UsuariosTableAdapter();
-           ConjuntoDatos.UsuariosDataTable temp = new ConjuntoDatos.UsuariosDataTable();
+           ConjuntoDatosUsuarioTableAdapters.usuariosTableAdapter usuario = new ConjuntoDatosUsuarioTableAdapters.usuariosTableAdapter();
+           ConjuntoDatosUsuario.usuariosDataTable temp = new ConjuntoDatosUsuario.usuariosDataTable();
 
            temp = usuario.Login(txt_usuario.Text, txt_contraseña.Text);
 
@@ -33,7 +33,7 @@ namespace proyecto
            {
                MessageBox.Show("Bienvenido " + temp[0].Nombre);
 
-              if (temp[0].Cod_TipoUsua == 1)
+              if (temp[0].Tipo_Usuario == 1)
                {
                    parent.opcionesAdministrador();
                }
@@ -48,9 +48,6 @@ namespace proyecto
            {
                MessageBox.Show("El usuario o la contraseña es incorrecto");
            }
-
-           
-          
             
         }
 

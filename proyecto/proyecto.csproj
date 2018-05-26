@@ -13,6 +13,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,7 +26,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -62,10 +62,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConjuntoDatos.Designer.cs">
+    <Compile Include="Area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area.Designer.cs">
+      <DependentUpon>Area.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConjuntoDatosPrincipal.cs">
+      <DependentUpon>ConjuntoDatosPrincipal.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ConjuntoDatosPrincipal.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ConjuntoDatos.xsd</DependentUpon>
+      <DependentUpon>ConjuntoDatosPrincipal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ConjuntoDatosUsuario.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConjuntoDatosUsuario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Contrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrato.Designer.cs">
+      <DependentUpon>Contrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado.Designer.cs">
+      <DependentUpon>Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoja_de_vida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoja_de_vida.Designer.cs">
+      <DependentUpon>Hoja_de_vida.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -87,6 +120,12 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vacantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacantes.Designer.cs">
+      <DependentUpon>Vacantes.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,16 +146,27 @@
       <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
-    <None Include="ConjuntoDatos.xsc">
-      <DependentUpon>ConjuntoDatos.xsd</DependentUpon>
+    <None Include="ConjuntoDatosPrincipal.xsc">
+      <DependentUpon>ConjuntoDatosPrincipal.xsd</DependentUpon>
     </None>
-    <None Include="ConjuntoDatos.xsd">
+    <None Include="ConjuntoDatosPrincipal.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ConjuntoDatos.Designer.cs</LastGenOutput>
+      <LastGenOutput>ConjuntoDatosPrincipal.Designer.cs</LastGenOutput>
     </None>
-    <None Include="ConjuntoDatos.xss">
-      <DependentUpon>ConjuntoDatos.xsd</DependentUpon>
+    <None Include="ConjuntoDatosPrincipal.xss">
+      <DependentUpon>ConjuntoDatosPrincipal.xsd</DependentUpon>
+    </None>
+    <None Include="ConjuntoDatosUsuario.xsc">
+      <DependentUpon>ConjuntoDatosUsuario.xsd</DependentUpon>
+    </None>
+    <None Include="ConjuntoDatosUsuario.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConjuntoDatosUsuario.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ConjuntoDatosUsuario.xss">
+      <DependentUpon>ConjuntoDatosUsuario.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -136,9 +186,7 @@
     <None Include="Resources\inicio.png" />
     <None Include="Resources\salir.png" />
     <None Include="Resources\menu.png" />
-    <Content Include="Usuario.sdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <None Include="Resources\fondo.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

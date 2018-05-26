@@ -46,3 +46,17 @@ C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\Bravosoft\proy
 C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\Bravosoft\proyecto\obj\x86\Debug\proyecto.Properties.Resources.resources
 C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\Bravosoft\proyecto\obj\x86\Debug\proyecto.Registro.resources
 C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\Bravosoft\proyecto\obj\x86\Debug\proyecto.csproj.GenerateResource.Cache
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\bin\Debug\proyecto.exe.config
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.exe
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.pdb
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\bin\Debug\proyecto.exe
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\bin\Debug\proyecto.pdb
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.Main.resources
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.Iniciar_Sesion.resources
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.Properties.Resources.resources
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.Registro.resources
+C:\Users\User\Documents\ING SISTEMAS\CUARTO SEMESTRE\PROGRAMACION\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.csproj.GenerateResource.Cache
+C:\Users\User\Documents\BRAVOSOFTBLL\proyecto\bin\Debug\proyecto.exe.config
+C:\Users\User\Documents\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.exe
+C:\Users\User\Documents\BRAVOSOFTBLL\proyecto\obj\x86\Debug\proyecto.pdb

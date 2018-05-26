@@ -1,0 +1,14 @@
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\bin\Debug\Bravosoftbll.exe
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\bin\Debug\Bravosoftbll.pdb
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.Main.resources
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.Properties.Resources.resources
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.csproj.GenerateResource.Cache
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.exe
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.pdb
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.Empleado.resources
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.Contrato.resources
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.Area.resources
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.Registro.resources
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.Vacantes.resources
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\obj\x86\Debug\Bravosoftbll.Login.resources
+C:\Users\User\Documents\BRAVOSOFTBLL\ProyectoI\Bravosoftbll\Bravosoftbll\bin\Debug\Bravosoftbll.exe.config
