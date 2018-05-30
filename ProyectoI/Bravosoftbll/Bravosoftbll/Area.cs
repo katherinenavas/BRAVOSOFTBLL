@@ -15,5 +15,10 @@ namespace Bravosoftbll
         {
             InitializeComponent();
         }
+
+        private void Area_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

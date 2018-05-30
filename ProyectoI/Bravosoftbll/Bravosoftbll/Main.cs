@@ -15,6 +15,8 @@ namespace Bravosoftbll
         {
             InitializeComponent();
         }
+
+
         [DllImport("user32.dll",EntryPoint="ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.dll",EntryPoint="SendMessage")]
@@ -121,6 +123,31 @@ namespace Bravosoftbll
         private void Registrar_Click(object sender, EventArgs e)
         {
             AbrirFormInPanel(new Registro());
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+           
+
+            
+          
+            
+            MenuL.Visible = false;
+            MenuVertical.Visible = false;
+         
+
+            AbrirFormInPanel(new LoginParte2());
+
+            
+           
+
+
+
+        }
+
+        private void Cuerpo_Paint_1(object sender, PaintEventArgs e)
+        {
+
         }
 
          

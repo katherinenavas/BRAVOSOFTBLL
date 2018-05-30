@@ -54,6 +54,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Area";
             this.Text = "Area";
+            this.Load += new System.EventHandler(this.Area_Load);
             this.ResumeLayout(false);
 
         }
